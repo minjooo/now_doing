@@ -1,0 +1,10 @@
+﻿  소스.cpp
+c:\users\minf0\desktop\sd\민주코딩한단다\테스트용\테스트용\소스.cpp(15): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\테스트용\테스트용\소스.cpp(26): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\테스트용\테스트용\소스.cpp(393): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\테스트용\테스트용\소스.cpp(394): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\테스트용\테스트용\소스.cpp(395): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\테스트용\테스트용\소스.cpp(410): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\테스트용\테스트용\소스.cpp(411): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\테스트용\테스트용\소스.cpp(412): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  테스트용.vcxproj -> C:\Users\minf0\Desktop\SD\민주코딩한단다\테스트용\Debug\테스트용.exe
