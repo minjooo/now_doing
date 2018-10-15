@@ -167,5 +167,6 @@ GLvoid Reshape(int w, int h)
 	//glLoadIdentity();
 
 	gluPerspective(60.0f, w / h, 1.0, 1000.0);
-	//glTranslatef(0.0, 0.0, -300.0); // 투영 공간을 화면 안쪽으로 이동하여 시야를 확보한다.
+	//glTranslatef(0.0, 0.0, -300.0); // 투영 공간을 화면 안쪽으로 이동하여 시야를 확보한다.
+
 }
