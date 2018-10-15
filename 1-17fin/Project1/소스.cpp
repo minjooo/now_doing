@@ -8,9 +8,9 @@ void Keyboard(unsigned char key, int x, int y);
 void TimerFunction(int value);
 void MenuFunc(int button);
 
-int rotation_y = 90;
-int rotation_x = 0;
-int rotation_z = 0;
+int rotationY = 90;
+int rotationX = 0;
+int rotationZ = 0;
 int camPosX = 0;
 int camPosY = 0;
 int camPosZ = 150;
@@ -77,22 +77,22 @@ void Keyboard(unsigned char key, int x, int y)
 	switch (key)//여기가 그 음 음 넣는데...?
 	{
 	case 'x':
-		rotation_x += 3;
+		rotationX += 3;
 		break;
 	case 'y':
-		rotation_y += 3;
+		rotationY += 3;
 		break;
 	case 'z':
-		rotation_z += 3;
+		rotationZ += 3;
 		break;
 	case 'X':
-		rotation_x -= 3;
+		rotationX -= 3;
 		break;
 	case 'Y':
-		rotation_y -= 3;
+		rotationY -= 3;
 		break;
 	case 'Z':
-		rotation_z -= 3;
+		rotationZ -= 3;
 		break;
 	case 'w':
 		camPosY -= 2;
@@ -111,6 +111,14 @@ void Keyboard(unsigned char key, int x, int y)
 		break;
 	case '-':
 		camPosZ += 2;
+		break;
+	case 'i':
+		rotationY = 90;
+		rotationX = 0;
+		rotationZ = 0;
+		camPosX = 0;
+		camPosY = 0;
+		camPosZ = 150;
 		break;
 	}
 	glutPostRedisplay();
@@ -133,9 +141,9 @@ GLvoid drawScene(GLvoid)
 	//
 	//camPosX = cos(PI / 180 * turn_z) * 150 - sin(PI / 180 * turn_z)*camPosY;
 	//camPosY = sin(PI / 180 * turn_z) * 150 + cos(PI / 180 * turn_z)*camPosY;
-	float atX = camPosX + cosf(rotation_y*PI / 180);
-	float atY = camPosY + sinf(rotation_x*PI / 180);
-	float atZ = camPosZ - sinf(rotation_y*PI / 180) - cosf(rotation_x*PI / 180);
+	float atX = camPosX + cosf(rotationY*PI / 180);
+	float atY = camPosY + sinf(rotationX*PI / 180);
+	float atZ = camPosZ - sinf(rotationY*PI / 180) - cosf(rotationX*PI / 180);
 
 	gluLookAt(camPosX, camPosY, camPosZ, atX, atY, atZ, 0, 1, 0);//여기가 룻엣읷고
 
