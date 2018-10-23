@@ -1,0 +1,30 @@
+﻿  소스.cpp
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(41): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(96): warning C4552: '!=': 식의 결과가 사용되지 않습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(173): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(174): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(175): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(200): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(234): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(235): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(236): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(252): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(311): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(331): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(332): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(336): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(340): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(341): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(345): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(375): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(399): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(405): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(419): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(421): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(423): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(425): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(429): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(431): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(433): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\test2222\test2222\소스.cpp(435): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  test2222.vcxproj -> C:\Users\minf0\Desktop\SD\민주코딩한단다\now_doing\test2222\Debug\test2222.exe
