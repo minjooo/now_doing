@@ -12,6 +12,9 @@ void DrawEmptyBoxes(int x, int y);//중앙 좌표 넘겨준다
 void MovingTriangles();
 void ShootingRectangle();
 void IWillCut();
+void CuttingNow(int startX, int startY, int endX, int endY, int squareY);
+void CutLeftRight(int squareY);
+void CutUpDown(int squareY);
 void RainbowStar();
 
 void main(int argc, char *argv[])
@@ -66,11 +69,23 @@ struct shootingRectangles {
 	bool canCut = true;
 	bool seperate = false;
 };
+struct twoTriangle {
+	int firstX;
+	int firstY;
+	int firstRotate = -(rand() % 10);
+
+	int secondX;
+	int secondY;
+	int secondRotate = rand() % 10;
+
+	bool ON = false;
+};
 
 freeTriangles triangles[11] = { {-548, 300,rand()%100},{-452,300,rand() % 100},{-352,300,rand() % 100},{-252,300,rand() % 100},{-152,300,rand() % 100},{-52,300,rand() % 100},{52,300,rand() % 100},{152,300,rand() % 100},{252,300,rand() % 100},{352,300,rand() % 100},{452,300,rand() % 100} };
 shootingRectangles shoot;
 cuttingLine cut;
 rainbowStar star[16];//16개가 최대더라
+twoTriangle tt;//암락티티
 GLvoid drawScene(GLvoid)
 {
 	glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
@@ -99,9 +114,18 @@ GLvoid drawScene(GLvoid)
 	MovingTriangles();
 	glPopMatrix();
 
-	glPushMatrix();
-	ShootingRectangle();
-	glPopMatrix();
+	if (shoot.seperate == false)
+	{
+		glPushMatrix();
+		ShootingRectangle();
+		glPopMatrix();
+	}
+	else if (shoot.seperate == true)
+	{
+		glPushMatrix();
+		CutLeftRight(shoot.rectangleY);
+		glPopMatrix();
+	}
 
 	IWillCut();
 
@@ -136,6 +160,7 @@ void TimerFunction1(int value)
 	}
 	if (false == shoot.canCut)
 	{
+
 		shoot.fade -= 0.1;
 	}
 	glutPostRedisplay();
@@ -145,6 +170,7 @@ void TimerFunction2(int value)
 {
 	shoot.rectangleY = -400;
 	shoot.canCut = true;
+	shoot.seperate = false;
 	shoot.fade = 1.0;
 	glutPostRedisplay();
 	glutTimerFunc(10000, TimerFunction2, 2);
@@ -164,6 +190,7 @@ void Mouse(int button, int state, int x, int y)
 		cut.cutting = false;
 		cut.endX = x-500;
 		cut.endY = -(y-350);
+		CuttingNow(cut.startX, cut.startY, cut.endX, cut.endY, shoot.rectangleY);
 	}
 	glutPostRedisplay();
 }
@@ -171,10 +198,44 @@ void Motion(int x, int y)
 {
 	if(true==cut.cutting)
 	{
-		cut.endX = x-500;
-		cut.endY = -(y-350);
+		cut.endX = x - 500;
+		cut.endY = -(y - 350);
 	}
 	glutPostRedisplay();
+}
+void CutLeftRight(int squareY)
+{
+	tt.firstX = -40;
+	tt.secondX = 40;
+	tt.firstRotate = -45;
+	tt.secondRotate = -45;
+	tt.firstY = squareY + 5;
+	tt.secondY = squareY + 5;
+
+	glPushMatrix();
+	glTranslatef(tt.firstX, tt.firstY, 0);
+	glRotatef(tt.firstRotate, 0, 0, 1);
+	glBegin(GL_POLYGON);
+	glVertex3f(0, 0, 0.0);
+	glVertex3f(50, 0, 0.0);
+	glVertex3f(0, 50, 0.0);
+	glEnd();
+	glPopMatrix();
+
+	glPushMatrix();
+	glTranslatef(tt.secondX, tt.secondY, 0);
+	glRotatef(tt.secondRotate, 0, 0, 1);
+
+	glBegin(GL_POLYGON);
+	glVertex3f(0, 0, 0.0);
+	glVertex3f(0, -50, 0.0);
+	glVertex3f(-50, 0, 0.0);
+	glEnd();
+	glPopMatrix();
+}
+void CutUpDown(int squareY)
+{
+
 }
 void ShootingRectangle()
 {
@@ -205,6 +266,21 @@ void MovingTriangles()
 			glEnd();
 			glPopMatrix();
 		}
+	}
+}
+void CuttingNow(int startX, int startY, int endX, int endY, int squareY)
+{
+	if ((abs(endX - startX) > abs(endY - startY))&&(abs(endY-startY)<20)&&abs((endY+startY)/2-squareY)<15)// -
+	{
+		shoot.canCut = false;
+		shoot.seperate = true;
+		CutUpDown(squareY);
+	}
+	else if ((abs(endX - startX) < abs(endY - startY)) && (abs(endX - startX) < 10) && abs((endX + startX) / 2 ) < 15)// |
+	{
+		shoot.canCut = false;
+		shoot.seperate = true;
+		CutLeftRight(squareY);
 	}
 }
 void IWillCut()

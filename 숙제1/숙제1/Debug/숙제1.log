@@ -1,20 +1,24 @@
 ﻿  소스.cpp
-c:\users\minf0\desktop\　　\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(18): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
-c:\users\minf0\desktop\　　\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(31): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\minf0\desktop\　　\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(139): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
-c:\users\minf0\desktop\　　\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(182): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\minf0\desktop\　　\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(198): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\minf0\desktop\　　\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(199): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\minf0\desktop\　　\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(217): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\minf0\desktop\　　\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(218): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\minf0\desktop\　　\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(229): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\minf0\desktop\　　\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(231): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\minf0\desktop\　　\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(252): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\minf0\desktop\　　\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(253): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\minf0\desktop\　　\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(254): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\minf0\desktop\　　\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(255): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\minf0\desktop\　　\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(256): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\minf0\desktop\　　\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(257): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\minf0\desktop\　　\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(262): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\minf0\desktop\　　\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(263): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  숙제1.vcxproj -> C:\Users\minf0\Desktop\　　\민주코딩한단다\now_doing\숙제1\Debug\숙제1.exe
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(21): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(34): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(164): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(216): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(217): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(226): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(227): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(243): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(259): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(260): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(293): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(294): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(305): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(307): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(328): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(329): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(330): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(331): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(332): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(333): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(338): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\minf0\desktop\sd\민주코딩한단다\now_doing\숙제1\숙제1\소스.cpp(339): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  숙제1.vcxproj -> C:\Users\minf0\Desktop\SD\민주코딩한단다\now_doing\숙제1\Debug\숙제1.exe
